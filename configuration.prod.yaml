@@ -1,0 +1,6 @@
+apimServiceName: AK-APIM-Prod
+namedValues:
+loggers:
+diagnostics:
+backends:
+apis:
