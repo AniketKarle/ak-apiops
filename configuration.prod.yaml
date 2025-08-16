@@ -1,4 +1,4 @@
-apimServiceName: AK-APIM-Prod
+apimServiceName: ak-prod-apim-cicd
 namedValues:
 loggers:
 diagnostics:
