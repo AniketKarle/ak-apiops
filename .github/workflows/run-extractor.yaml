@@ -78,6 +78,8 @@ jobs:
             & chmod +x "$executableFilePath"
             if ($LASTEXITCODE -ne 0) { throw "Setting file permissions failed."}
           }
+          
+          Write-Information "Extractor exited with code $LASTEXITCODE"
 
           Write-Information "Running extractor..."
           & "$executableFilePath"              
