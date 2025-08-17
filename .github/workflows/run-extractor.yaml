@@ -53,12 +53,11 @@ jobs:
 
           
           Write-Information "Running extractor..."
-          & "${{ secrets.AZURE_RESOURCE_GROUP_NAME }}"              
-          if ($LASTEXITCODE -ne 0) { throw "Running extractor failed."}
+          ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
 
           Write-Information "Running extractor..."
-          & "${{ secrets.API_MANAGEMENT_SERVICE_NAME }}"              
-          if ($LASTEXITCODE -ne 0) { throw "Running extractor failed."}
+          ${{ secrets.API_MANAGEMENT_SERVICE_NAME }}
+          
 
           if ("${{ runner.os }}" -like "*win*") {
             $releaseFileName = "extractor-win-x64.zip"
