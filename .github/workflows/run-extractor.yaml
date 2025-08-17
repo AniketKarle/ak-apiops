@@ -49,15 +49,7 @@ jobs:
 
           Write-Information "Setting name variables..."
           $releaseFileName = "extractor-linux-x64.zip"
-          $executableFileName = "extractor"
-
-          
-          Write-Information "Running extractor..."
-          ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
-
-          Write-Information "Running extractor..."
-          ${{ secrets.API_MANAGEMENT_SERVICE_NAME }}
-          
+          $executableFileName = "extractor"          
 
           if ("${{ runner.os }}" -like "*win*") {
             $releaseFileName = "extractor-win-x64.zip"
