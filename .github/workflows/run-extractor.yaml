@@ -33,12 +33,12 @@ jobs:
       - name: Run extractor without Config Yaml
         if: ${{ github.event.inputs.CONFIGURATION_YAML_PATH == 'Extract All APIs' }}
         env:
-          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          AZURE_RESOURCE_GROUP_NAME: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
-          API_MANAGEMENT_SERVICE_NAME: ${{ secrets.API_MANAGEMENT_SERVICE_NAME }}
+          AZURE_CLIENT_ID: "5af08e57-3d42-4116-8b6c-48b5569feeb5"
+          AZURE_CLIENT_SECRET: "3Ds8Q~haIdNvi9zHGnMuf2jF3dXxZc.4wwoOcdx7"
+          AZURE_TENANT_ID: "2b0d180c-5fee-4dc0-a349-5b0fa544b275"
+          AZURE_SUBSCRIPTION_ID: "317a4716-872d-4015-bc3e-f832f58f5726"
+          AZURE_RESOURCE_GROUP_NAME: "dev-rg"
+          API_MANAGEMENT_SERVICE_NAME: "ak-dev-apim-cicd"
           API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH: ${{ GITHUB.WORKSPACE }}/apimartifacts  # change this to the artifacts folder
           API_SPECIFICATION_FORMAT: ${{ github.event.inputs.API_SPECIFICATION_FORMAT }} 
         run: |
