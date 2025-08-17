@@ -51,6 +51,15 @@ jobs:
           $releaseFileName = "extractor-linux-x64.zip"
           $executableFileName = "extractor"
 
+          
+          Write-Information "Running extractor..."
+          & "${{ secrets.AZURE_RESOURCE_GROUP_NAME }}"              
+          if ($LASTEXITCODE -ne 0) { throw "Running extractor failed."}
+
+          Write-Information "Running extractor..."
+          & "${{ secrets.API_MANAGEMENT_SERVICE_NAME }}"              
+          if ($LASTEXITCODE -ne 0) { throw "Running extractor failed."}
+
           if ("${{ runner.os }}" -like "*win*") {
             $releaseFileName = "extractor-win-x64.zip"
             $executableFileName = "extractor.exe"
