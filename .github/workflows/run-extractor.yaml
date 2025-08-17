@@ -27,7 +27,14 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     environment: dev # change this to match the dev environment created in settings 
+    
     steps:
+      - name: Debug AZURE_CLIENT_ID
+        run: |
+          echo "AZURE_CLIENT_ID=${{ vars.AZURE_CLIENT_ID }}"
+          echo "AZURE_CLIENT_ID=${{ secrets.AZURE_CLIENT_ID }}"
+        shell: pwsh
+        
       - uses: actions/checkout@v4
           
       - name: Run extractor without Config Yaml
