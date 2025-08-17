@@ -82,6 +82,8 @@ jobs:
           Write-Information "Running extractor..."
           & "$executableFilePath"              
           if ($LASTEXITCODE -ne 0) { throw "Running extractor failed."}
+          
+          Write-Information "Extractor exited with code $LASTEXITCODE"
 
           Write-Information "Execution complete."
         shell: pwsh
