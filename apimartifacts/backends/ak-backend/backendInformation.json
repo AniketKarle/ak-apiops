@@ -1,7 +1,11 @@
 {
   "properties": {
     "credentials": {
-      "header": {},
+      "header": {
+        "Authorization": [
+          "{{kv-secret-demo}}"
+        ]
+      },
       "query": {}
     },
     "description": "ak-backend",

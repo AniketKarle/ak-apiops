@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "displayName": "kv-secret-demo",
+    "keyVault": {
+      "secretIdentifier": "https://ak-kv-dev1.vault.azure.net/secrets/ak-test-secret"
+    },
+    "secret": true,
+    "tags": []
+  }
+}
