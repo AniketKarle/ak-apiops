@@ -4,6 +4,12 @@ namedValues:
     properties:
       displayName: secret
       value: "{#testSecretValue#}"
+  - name: kv-secret-demo
+    properties:
+      displayName: kv-secret-demo
+      keyVault:
+        identityClientId: 335b813d-d90d-44e6-8b8c-0bbf2e77a616
+        secretIdentifier: https://ak-kv-dev1.vault.azure.net/secrets/ak-test-secret-Prod/ca2024a1b9874475bbaa401ce2001ef0
 loggers:
 diagnostics:
 backends:
