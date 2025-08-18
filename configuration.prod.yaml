@@ -3,4 +3,7 @@ namedValues:
 loggers:
 diagnostics:
 backends:
+  - name: prodbackend
+    properties:
+      url: "https://prod-example.com"
 apis:
