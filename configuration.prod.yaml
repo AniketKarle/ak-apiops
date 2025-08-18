@@ -1,5 +1,9 @@
 apimServiceName: ak-prod-apim-cicd
 namedValues:
+  - name: secret
+    properties:
+      displayName: secret
+      value: "{#testSecretValue#}"
 loggers:
 diagnostics:
 backends:
