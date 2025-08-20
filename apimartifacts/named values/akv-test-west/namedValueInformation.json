@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "akv-test-west",
+    "secret": false,
+    "tags": [],
+    "value": "akv-test-west"
+  }
+}
