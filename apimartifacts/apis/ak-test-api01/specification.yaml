@@ -1,19 +1,11 @@
 openapi: 3.0.1
 info:
-  title: test-api
+  title: ak-test-api01
   description: ''
   version: '1.0'
 servers:
-  - url: https://ak-dev-apim-cicd.azure-api.net/test-api
-paths:
-  /testapi1:
-    get:
-      summary: testAPI
-      description: testAPI
-      operationId: testapi1
-      responses:
-        '200':
-          description: ''
+  - url: https://ak-dev-apim-cicd.azure-api.net/testapo01
+paths: { }
 components:
   securitySchemes:
     apiKeyHeader:
