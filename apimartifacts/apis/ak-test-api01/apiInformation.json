@@ -1,15 +1,14 @@
 {
   "properties": {
-    "path": "test-api",
+    "path": "testapo01",
     "apiRevision": "1",
     "authenticationSettings": {},
     "description": "",
     "isCurrent": true,
-    "displayName": "test-api",
+    "displayName": "ak-test-api01",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "https://ak-dev-apim-cicd.azure-api.net/test-api",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
