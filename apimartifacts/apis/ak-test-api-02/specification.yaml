@@ -9,6 +9,7 @@ paths:
   /getapi02:
     get:
       summary: getapi02
+      description: getapi02
       operationId: getapi02
       responses:
         '200':

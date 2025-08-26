@@ -10,7 +10,7 @@
 		<base />
 		<return-response>
 			<set-status code="200" reason="ok" />
-			<set-body>hello test api 02</set-body>
+			<set-body>hello test api 02 - {{test-api-02}}</set-body>
 		</return-response>
 	</inbound>
 	<!-- Control if and how the requests are forwarded to services  -->
