@@ -1,0 +1,29 @@
+openapi: 3.0.1
+info:
+  title: ak-test-api-02
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://ak-dev-apim-cicd.azure-api.net/test02
+paths:
+  /getapi02:
+    get:
+      summary: getapi02
+      description: getapi02
+      operationId: getapi02
+      responses:
+        '200':
+          description: ''
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
