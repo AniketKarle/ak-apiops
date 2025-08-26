@@ -10,6 +10,10 @@ namedValues:
     properties:
       displayName: environment
       value: "https://www.search2.com"
+  - name: test-api-02
+    properties:
+      displayName: test-api-02
+      value: "value from Named Value from Prod"
 loggers:
 diagnostics:
 backends:
