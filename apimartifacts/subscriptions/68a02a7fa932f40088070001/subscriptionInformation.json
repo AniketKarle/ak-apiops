@@ -1,8 +1,0 @@
-{
-  "properties": {
-    "scope": "/subscriptions/317a4716-872d-4015-bc3e-f832f58f5726/resourceGroups/dev-rg/providers/Microsoft.ApiManagement/service/ak-dev-apim-cicd/products/starter",
-    "allowTracing": false,
-    "ownerId": "/subscriptions/317a4716-872d-4015-bc3e-f832f58f5726/resourceGroups/dev-rg/providers/Microsoft.ApiManagement/service/ak-dev-apim-cicd/users/1",
-    "state": "active"
-  }
-}

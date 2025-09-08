@@ -1,9 +1,0 @@
-{
-  "properties": {
-    "displayName": "Demo",
-    "description": "Demo",
-    "approvalRequired": false,
-    "state": "notPublished",
-    "subscriptionRequired": true
-  }
-}
