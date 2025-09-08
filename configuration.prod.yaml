@@ -1,19 +1,5 @@
-apimServiceName: ak-prod-apim-cicd
+apimServiceName: apim-test-intg
 namedValues:
-  - name: test-secret
-    properties:
-      displayName: test-secret
-      keyVault:
-        identityClientId: 335b813d-d90d-44e6-8b8c-0bbf2e77a616
-        secretIdentifier: https://ak-kv-dev1.vault.azure.net/secrets/test-secret/96006447cc054217a9fd3215e81620de
-  - name: environment
-    properties:
-      displayName: environment
-      value: "https://www.search2.com"
-  - name: test-api-02
-    properties:
-      displayName: test-api-02
-      value: "value from Named Value from Prod instance"
 loggers:
 diagnostics:
 backends:
