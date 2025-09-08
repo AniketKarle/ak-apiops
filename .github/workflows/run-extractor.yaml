@@ -27,7 +27,7 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     #environment: dev # change this to match the dev environment created in settings 
-    environment: ak-dev-14Aug25 #changed the name to created one
+    environment: ak-dev-08Sept25 #changed the name to created one
     
     steps:
       - name: Debug AZURE_CLIENT_ID
