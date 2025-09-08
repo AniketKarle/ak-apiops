@@ -9,6 +9,7 @@ paths:
   /:
     get:
       summary: all
+      description: all
       operationId: all
       responses:
         '200':
@@ -16,6 +17,7 @@ paths:
   /json:
     get:
       summary: json
+      description: json
       operationId: json
       responses:
         '200':
@@ -23,6 +25,7 @@ paths:
   /xml:
     get:
       summary: xml
+      description: xml
       operationId: xml
       responses:
         '200':
