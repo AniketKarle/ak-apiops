@@ -9,6 +9,7 @@
 	<inbound>
 		<base />
 		<set-variable name="akv-nv" value="{{akv-nv}}" />
+		<set-variable name="akv-nv01" value="{{akv-nv}}" />
 	</inbound>
 	<!-- Control if and how the requests are forwarded to services  -->
 	<backend>
