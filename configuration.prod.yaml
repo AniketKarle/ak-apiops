@@ -1,5 +1,11 @@
 apimServiceName: apim-test-intg
 namedValues:
+  - name: akv-nv
+    properties:
+      displayName: akv-nv
+      keyVault:
+        identityClientId: 8b748fcf-4b33-49dc-baed-4c385f723bdf
+        secretIdentifier: https://apim-test-kv1.vault.azure.net/secrets/test-client-id
 loggers:
 diagnostics:
 backends:
