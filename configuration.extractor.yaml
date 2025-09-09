@@ -2,7 +2,7 @@
 # More information about workspaces can be found here https://learn.microsoft.com/en-us/azure/api-management/workspaces-overview
 
  apiNames:
-  - swagger-petstore-openapi-3-0
+  - mark-harrison-colors-api
 
  backendNames:
   - ignore
