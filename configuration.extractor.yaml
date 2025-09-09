@@ -5,18 +5,25 @@
   - swagger-petstore-openapi-3-0
 
  backendNames:
+  - ignore
 
  diagnosticNames:
+  - ignore
 
  loggerNames:
+  - ignore
 
  namedValueNames:
-   - test-secret
+  - ignore
 
  productNames:
+  - ignore
 
  subscriptionNames:
+  - ignore
 
  tagNames:
+  - ignore
   
  policyFragmentNames:
+  - ignore
