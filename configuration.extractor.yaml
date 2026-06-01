@@ -2,7 +2,7 @@
 # More information about workspaces can be found here https://learn.microsoft.com/en-us/azure/api-management/workspaces-overview
 
  apiNames:
-  - test-cicd
+  - sgw-test-api
 
  backendNames:
   - ignore
@@ -14,7 +14,7 @@
   - ignore
 
  namedValueNames:
-  - ignore
+  - test-sgw
 
  productNames:
   - ignore
